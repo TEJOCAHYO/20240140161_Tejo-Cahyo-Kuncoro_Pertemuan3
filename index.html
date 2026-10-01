@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jamu Sedep  - Asisten AI untuk UMKM Pedagang jamu Sedep, Mantep, Josjis, Kriuk</title>
+    
+    <!-- Mencegah Error 404 Favicon -->
+    <link rel="shortcut icon" href="#">
+    
+    <!-- Hubungan file CSS external -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Praktikum Paw2</h1>
+        <p>Selamat datang di Halaman Awal “Asisten AI untuk UMKM”</p>
+    </header>
+
+    <nav>
+        <a href="#beranda">Beranda</a>
+        <a href="#profile">Profile</a>
+        <a href="#formdata">Form Data</a>
+        <a href="#media">Media</a>
+    </nav>
+
+    <main>
+        <section id="beranda">
+            <h2>Asisten AI untuk UMKM</h2>
+            <p>Platform ini dirancang untuk membantu para pelaku UMKM mengelola dan mengembangkan usahanya secara efisien dengan bantuan Kecerdasan Buatan (AI).</p>
+            <figure>
+                <img src="OIP.jpg" alt="Ilustrasi Asisten AI untuk UMKM">
+            </figure>
+        </section>
+
+        <section id="profile">
+            <h2>Profile</h2>
+            <h1>Merawat Tradisi, Menjaga Kesehatan.</h1>
+            <p>Menyajikan seduhan racikan bahan alami pilihan tanpa bahan pengawet. Warisan rempah Nusantara untuk tubuh yang sehat, bugar, dan penuh stamina setiap hari.</p>
+        </section>
+
+        <section id="formdata">
+            <h2>Form Data Pengguna</h2>
+            <form id="myForm">
+                <div class="form-group">
+                    <label for="name">Masukkan nama Anda:</label><br>
+                    <input type="text" id="name" name="name" required>
+                </div>
+
+                <fieldset id="jeniskelamin">
+                    <legend>Jenis Kelamin:</legend>
+
+                    <input type="radio" id="pria" name="jenis_kelamin" value="pria" required>
+                    <label for="pria">Pria</label>
+
+                    <input type="radio" id="perempuan" name="jenis_kelamin" value="perempuan">
+                    <label for="perempuan">Perempuan</label>
+                </fieldset>
+
+                <div class="btn-group">
+                    <button type="submit">Kirim Data</button>
+                    <button type="reset">Batal</button>
+                </div>
+            </form>
+            <div id="pesan-notifikasi"></div>
+        </section>
+
+        <section id="media">
+            <h3>Dokumentasi / Media</h3>
+            <img src="gambar.jpg" alt="asoyy and kriuk">
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Praktikum PAW 2 - Asisten AI untuk UMKM</p>
+    </footer>
+
+</body>
+</html>
